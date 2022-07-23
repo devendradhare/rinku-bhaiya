@@ -11,7 +11,7 @@ getYear();
 /** google_map js **/
 function myMap() {
     var mapProp = {
-        center: new google.maps.LatLng(78.712775, 21.005973),
+        center: new google.maps.LatLng(21.996138, 78.807419),
         zoom: 18,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
