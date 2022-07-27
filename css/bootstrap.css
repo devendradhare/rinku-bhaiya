@@ -552,6 +552,9 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.container .row{
+  max-height: 30ex;
+}
 
 @media (min-width: 576px) {
   .container {
@@ -592,7 +595,15 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: space-evenly;
+  align-content: stretch;
 }
+/* display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; */
 
 .no-gutters {
   margin-right: 0;
