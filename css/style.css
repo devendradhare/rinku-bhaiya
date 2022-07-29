@@ -343,7 +343,9 @@ a:focus {
 .slider_section .img-box img {
   width: 100%;
 }
-
+/* .sld-img{
+  min-height: 85vw;
+} */
 .slider_section .carousel-indicators {
   position: unset;
   margin-top: 60px;
