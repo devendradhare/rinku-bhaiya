@@ -786,7 +786,7 @@ a:focus {
   display: flex;
 }
 
-.contact_section .form_container .btn_box button {
+.contact_section .form_container .btn_box input {
   border: none;
   text-transform: uppercase;
   display: inline-block;
@@ -799,7 +799,7 @@ a:focus {
   transition: all .3s;
 }
 
-.contact_section .form_container .btn_box button:hover {
+.contact_section .form_container .btn_box input:hover {
   background-color: transparent;
   color: #f89646;
 }
