@@ -7,11 +7,20 @@
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxgHOp9b9TVoSZfyveWBHTGW5ib6chKAN8KbH2gTDgDNiIhQ1EGWIftxdCdW8BPqcv2gw/exec'
 const form = document.forms['google-sheet']
-
 form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, {
     method: 'post', body: new FormData(form)
+  })
+  .then(response => alert("Thanks for contacting us...!"))
+  .catch(error => console.error('Erroe.message'))
+})
+
+const form2 = document.forms['google-sheet2']
+form2.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, {
+    method: 'post', body: new FormData(form2)
   })
     .then(response => alert("Thanks for contacting us...!"))
     .catch(error => console.error('Erroe.message'))
