@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
+// added by devendra dhare
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxgHOp9b9TVoSZfyveWBHTGW5ib6chKAN8KbH2gTDgDNiIhQ1EGWIftxdCdW8BPqcv2gw/exec'
 const form = document.forms['google-sheet']
 form.addEventListener('submit', e => {
@@ -25,7 +25,7 @@ form2.addEventListener('submit', e => {
     .then(response => alert("Thanks for contacting us...!"))
     .catch(error => console.error('Erroe.message'))
 })
-
+// added by devendra dhare
 
 
 
