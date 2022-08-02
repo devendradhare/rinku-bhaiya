@@ -12,8 +12,8 @@ form.addEventListener('submit', e => {
   fetch(scriptURL, {
     method: 'post', body: new FormData(form)
   })
-  .then(response => alert("Thanks for contacting us...!"))
-  .catch(error => console.error('Erroe.message'))
+    .then(response => alert("Thanks for contacting us...!"))
+    .catch(error => console.error('Erroe.message'))
 })
 
 const form2 = document.forms['google-sheet2']
@@ -25,7 +25,7 @@ form2.addEventListener('submit', e => {
     .then(response => alert("Thanks for contacting us...!"))
     .catch(error => console.error('Erroe.message'))
 })
-// added by devendra dhare
+  // added by devendra dhare
 
 
 
